@@ -7,14 +7,29 @@
     <link rel="stylesheet" type="text/css" href="./src/css/styles.css">
     <link rel="stylesheet" type="text/css" href="./src/css/mobile.css">
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!-- Google Tag Manager -->
+    <script>(function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({
+                'gtm.start':
+                    new Date().getTime(), event: 'gtm.js'
+            }); var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-WP3SH7F');</script>
+    <!-- End Google Tag Manager -->
 </head>
 
 <body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WP3SH7F" height="0" width="0"
+            style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
     <div class="header">
         <div class="content">
             <img class="logo-image" src="./src/img/logo.png" />
             <span class="header-text">
-                <a href="tel:+18005555555" class="phone-link">Call us today! 1.800.555.5555</a>
+                <a id="phone_main" href="tel:+18005555555" class="phone-link">Call us today! 1.800.555.5555</a>
             </span>
         </div>
     </div>
@@ -27,7 +42,7 @@
                         Think of all the things you could do with <br class="new-liner"> some extra cash from
                         1<sup>st</sup> Franklin Financial.
                     </p>
-                    <button class="apply-button">Apply Today</button>
+                    <button id="btn_apply" class="apply-button">Apply Today</button>
                 </div>
                 <div class="block form-block">
                     <form id="application-form" class="apply-form">
@@ -81,18 +96,18 @@
                             135 E. Tugalo Street <br>
                             P.O. Box 880 <br>
                             Toccoa, GA, 30577 <br>
-                            <a href="tel:+17068867571" class="phone-action">(706) 886-7571</a>
+                            <a id="phone_head" href="tel:+17068867571" class="phone-action">(706) 886-7571</a>
                         </p>
                     </div>
                     <div class="text-block">
                         <h4>Toll Free Numbers</h4>
                         <p>
                             Investment Center <br>
-                            <a href="tel:+17068867571" class="phone-action">(706) 886-7571</a> or <a
+                            <a id="phone_invest_1" href="tel:+17068867571" class="phone-action">(706) 886-7571</a> or <a id="phone_invest_2"
                                 href="tel:+18002820709" class="phone-action">(800)
                                 282-0709</a> <br>
                             Quality Assurance <br>
-                            <a href="tel:+18007007943" class="phone-action">(800) 700-7943</a>
+                            <a id="phone_main_qa" href="tel:+18007007943" class="phone-action">(800) 700-7943</a>
                         </p>
                     </div>
                     <div class="text-block">
@@ -147,16 +162,16 @@
                             <a href="#">Visit Page</a>
                         </div>
                         <div class="social-links">
-                            <a href="https://facebook.com/" target="_blank">
+                            <a id="fb" href="https://facebook.com/" target="_blank">
                                 <div class="fb"></div>
                             </a>
-                            <a href="https://youtube.com/" target="_blank">
+                            <a id="yt" href="https://youtube.com/" target="_blank">
                                 <div class="yt"></div>
                             </a>
-                            <a href="https://instagram.com/" target="_blank">
+                            <a id="inst" href="https://instagram.com/" target="_blank">
                                 <div class="inst"></div>
                             </a>
-                            <a href="https://twitter.com/" target="_blank">
+                            <a id="twi" href="https://twitter.com/" target="_blank">
                                 <div class="twi"></div>
                             </a>
                         </div>
