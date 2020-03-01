@@ -1,0 +1,99 @@
+@media screen and (max-width: 1140px) {
+    .main-section {
+        margin-bottom: 10px;
+    }
+
+    .content {
+        width: calc(100% - 40px);
+        padding: 0 20px;
+    }
+
+    .blocks-container {
+        flex-direction: column;
+    }
+
+    .info-block-container {
+        align-items: center;
+    }
+
+    .apply-block {
+        text-shadow: 0px 0px 30px rgba(255, 255, 255, 1), 0px 0px 30px rgba(255, 255, 255, 1),0px 0px 30px rgba(255, 255, 255, 1), 0px 0px 30px rgba(255, 255, 255, 1),0px 0px 30px rgba(255, 255, 255, 1), 0px 0px 30px rgba(255, 255, 255, 1),0px 0px 30px rgba(255, 255, 255, 1), 0px 0px 30px rgba(255, 255, 255, 1);
+    }
+
+    .form-block {
+        margin-top: 30px;
+    }
+
+    .block {
+        max-width: 720px;
+    }
+
+    .columns-container {
+        justify-content: space-around;
+    }
+
+    .contacts-column {
+        flex: unset;
+    }
+
+    .navigation-column {
+        margin-left: 20px;
+        flex: unset;
+        justify-content: flex-start;
+        flex-direction: column;
+    }
+}
+  
+@media screen and (max-width: 630px) {
+    .phone-link {
+        margin-left: 10px;
+    }
+    
+    .new-liner {
+        display: none;
+    }
+
+    header {
+        height: 70px;
+    }
+
+    .logo-image {
+        width: 90px;
+    }
+
+    .header-text {
+        font-size: 22px;
+    }
+
+    .apply-block h1 {
+        font-size: 35px;
+        line-height: 45px;
+    }
+
+    .apply-block p, .apply-form h4 {
+        font-size: 20px;
+    }
+
+    .apply-block button, .apply-form input, .apply-form button, .info-block p {
+        font-size: 16px;
+    }
+
+    .info-block h4 {
+        font-size: 18px;
+    }
+
+    .columns-container {
+        flex-direction: column-reverse;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    .columns-container>div {
+        width: 100%;
+    }
+
+    .navigation-column {
+        margin-left: 0px;
+        margin-bottom: 40px;
+    }
+}
