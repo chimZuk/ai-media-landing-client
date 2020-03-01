@@ -1,6 +1,7 @@
 @media screen and (max-width: 1140px) {
     .main-section {
         margin-bottom: 10px;
+        min-height: 1170px;
     }
 
     .content {
@@ -31,6 +32,10 @@
     .block {
         max-width: 720px;
     }
+    
+    .footer  {
+        min-height: 928px;
+    }
 
     .columns-container {
         justify-content: space-around;
@@ -49,6 +54,11 @@
 }
   
 @media screen and (max-width: 630px) {
+    .main-section {
+        margin-bottom: 10px;
+        min-height: 1058px;
+    }
+
     .phone-link {
         margin-left: 10px;
     }
@@ -84,6 +94,10 @@
 
     .info-block h4 {
         font-size: 18px;
+    }
+
+    .footer  {
+        min-height: 1625px;
     }
 
     .columns-container {
