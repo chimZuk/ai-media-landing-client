@@ -114,7 +114,7 @@ button {
     display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex;
     -webkit-box-orient: vertical; -webkit-box-direction: column; -webkit-flex-direction: column; -ms-flex-direction: column; flex-direction: column;
     padding-top: 40px;
-    background-image: url("../img/stock.png");
+    background-image: url("../img/back.png");
     background-position: top center;
     background-size: contain;
     background-repeat: no-repeat;
