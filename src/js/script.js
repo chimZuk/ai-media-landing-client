@@ -35,13 +35,6 @@ application_form.addEventListener('submit', function (e) {
         data[key] = value;
     }
 
-    console.log(data);
-
-    /*setTimeout(function () {
-        toggle_response(true, "Thank you!");
-        toggle_loading(false);
-    }, 1000);*/
-
     const http = new XMLHttpRequest();
     const url = '/api/loan.submit';
 
