@@ -9,7 +9,7 @@
     }
 
     .blocks-container {
-        flex-direction: column;
+        -webkit-box-orient: vertical; -webkit-box-direction: column; -webkit-flex-direction: column; -ms-flex-direction: column; flex-direction: column;
     }
 
     .info-block-container {
@@ -40,7 +40,7 @@
         margin-left: 20px;
         flex: unset;
         justify-content: flex-start;
-        flex-direction: column;
+        -webkit-box-orient: vertical; -webkit-box-direction: column; -webkit-flex-direction: column; -ms-flex-direction: column; flex-direction: column;
     }
 }
   
@@ -48,7 +48,7 @@
     .phone-link {
         margin-left: 10px;
     }
-    
+
     .new-liner {
         display: none;
     }
