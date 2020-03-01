@@ -37,13 +37,13 @@ application_form.addEventListener('submit', function (e) {
 
     console.log(data);
 
-    setTimeout(function () {
+    /*setTimeout(function () {
         toggle_response(true, "Thank you!");
         toggle_loading(false);
-    }, 1000);
+    }, 1000);*/
 
-    /*const http = new XMLHttpRequest();
-    const url = 'login.php';
+    const http = new XMLHttpRequest();
+    const url = '/api/loan.submit';
 
     http.open("POST", url, true);
     http.setRequestHeader("Content-type", "application/json");
@@ -52,10 +52,11 @@ application_form.addEventListener('submit', function (e) {
     http.onreadystatechange = function () {
         if (this.readyState == 4 && this.status == 200) {
             var result = JSON.parse(http.responseText)
-            toggle_response(true, result);
+            console.log(result);
+            toggle_response(true, result.message);
             toggle_loading(false);
         }
-    }*/
+    }
 
     return false;
 });
