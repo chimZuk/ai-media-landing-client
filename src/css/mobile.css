@@ -97,7 +97,11 @@
         margin-bottom: 40px;
     }
 
-    .footer .container {
-        height: 1520px;
+    .footer {
+        height: 1700px;
+    }
+
+    .footer .content {
+        height: 1700px;
     }
 }
