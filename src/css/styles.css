@@ -35,7 +35,7 @@ form {
 }
 
 header {
-    display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex;
+    display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-orient: horizontal; -webkit-box-direction: normal; -webkit-flex-direction: row; -ms-flex-direction: row; flex-direction: row;
     justify-content: center;
     align-items: center;
     position: relative;
@@ -46,7 +46,7 @@ header {
 }
 
 section {
-    display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex;
+    display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-orient: horizontal; -webkit-box-direction: normal; -webkit-flex-direction: row; -ms-flex-direction: row; flex-direction: row;
     justify-content: center;
     align-items: center;
     position: relative;
@@ -55,7 +55,7 @@ section {
 }
 
 footer {
-    display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex;
+    display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-orient: horizontal; -webkit-box-direction: normal; -webkit-flex-direction: row; -ms-flex-direction: row; flex-direction: row;
     justify-content: center;
     align-items: center;
     position: relative;
@@ -83,7 +83,7 @@ button {
 /* Landing header styles */
 
 .content {
-    display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex;
+    display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-orient: horizontal; -webkit-box-direction: normal; -webkit-flex-direction: row; -ms-flex-direction: row; flex-direction: row;
     position: relative;
     width: 1080px;
     height: 100%;
@@ -128,7 +128,7 @@ header .content {
 }
 
 .blocks-container {
-    display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex;
+    display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-orient: horizontal; -webkit-box-direction: normal; -webkit-flex-direction: row; -ms-flex-direction: row; flex-direction: row;
     justify-content: space-between;
     align-items: center;
 }
@@ -160,7 +160,7 @@ header .content {
 
 .form-block { 
     flex: 2;
-    display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex;
+    display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-orient: horizontal; -webkit-box-direction: normal; -webkit-flex-direction: row; -ms-flex-direction: row; flex-direction: row;
     justify-content: flex-end;
 }
 
@@ -226,7 +226,7 @@ header .content {
 }
 
 .certified-block {
-    display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex;
+    display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-orient: horizontal; -webkit-box-direction: normal; -webkit-flex-direction: row; -ms-flex-direction: row; flex-direction: row;
     align-items: center;
     justify-content: space-between;
     height: 100px;
@@ -253,7 +253,7 @@ footer .content {
 
 .columns-container {
     width: 100%;
-    display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex;
+    display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-orient: horizontal; -webkit-box-direction: normal; -webkit-flex-direction: row; -ms-flex-direction: row; flex-direction: row;
     justify-content: space-between;
 }
 
@@ -305,7 +305,7 @@ footer .content {
 
 .navigation-column {
     flex: 2;
-    display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex;
+    display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-orient: horizontal; -webkit-box-direction: normal; -webkit-flex-direction: row; -ms-flex-direction: row; flex-direction: row;
     justify-content: space-around;
 }
 
@@ -332,7 +332,7 @@ footer .content {
 }
 
 .social-links {
-    display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex;
+    display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-orient: horizontal; -webkit-box-direction: normal; -webkit-flex-direction: row; -ms-flex-direction: row; flex-direction: row;
 }
 
 .social-links div {
