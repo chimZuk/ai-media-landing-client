@@ -34,7 +34,7 @@ form {
     margin: 0px;
 }
 
-header {
+.header {
     display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-orient: horizontal; -webkit-box-direction: normal; -webkit-flex-direction: row; -ms-flex-direction: row; flex-direction: row;
     justify-content: center;
     align-items: center;
@@ -45,7 +45,7 @@ header {
     background: linear-gradient(90deg, rgba(255,250,226,1) 0%, rgb(255, 221, 85) 60%, rgba(255,169,0,1) 100%);
 }
 
-section {
+.section {
     display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-orient: horizontal; -webkit-box-direction: normal; -webkit-flex-direction: row; -ms-flex-direction: row; flex-direction: row;
     justify-content: center;
     align-items: center;
@@ -54,7 +54,7 @@ section {
     background-color: white;
 }
 
-footer {
+.footer {
     display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-orient: horizontal; -webkit-box-direction: normal; -webkit-flex-direction: row; -ms-flex-direction: row; flex-direction: row;
     justify-content: center;
     align-items: center;
@@ -80,7 +80,7 @@ button {
 
 
 
-/* Landing header styles */
+/* Landing .header styles */
 
 .content {
     display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-orient: horizontal; -webkit-box-direction: normal; -webkit-flex-direction: row; -ms-flex-direction: row; flex-direction: row;
@@ -89,7 +89,7 @@ button {
     height: 100%;
 }
 
-header .content {
+.header .content {
     justify-content: space-between;
     align-items: center;
 }
@@ -244,7 +244,7 @@ header .content {
 
 /* Landing footer styles */
 
-footer .content {
+.footer .content {
     justify-content: space-between;
     align-items: center;
     margin-top: 60px;
