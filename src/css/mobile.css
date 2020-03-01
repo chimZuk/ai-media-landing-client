@@ -96,4 +96,8 @@
         margin-left: 0px;
         margin-bottom: 40px;
     }
+
+    .footer .container {
+        height: 1520px;
+    }
 }
