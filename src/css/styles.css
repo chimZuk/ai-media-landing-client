@@ -42,9 +42,6 @@ form {
 }
 
 .section {
-    display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-orient: horizontal; -webkit-box-direction: normal; -webkit-flex-direction: row; -ms-flex-direction: row; flex-direction: row;
-    justify-content: center;
-    align-items: center;
     position: relative;
     width: 100%;
     background-color: white;
@@ -79,13 +76,12 @@ button {
 /* Landing .header styles */
 
 .content {
-    display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-orient: horizontal; -webkit-box-direction: normal; -webkit-flex-direction: row; -ms-flex-direction: row; flex-direction: row;
     position: relative;
     width: 1080px;
-    height: 100%;
 }
 
 .header .content {
+    display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-orient: horizontal; -webkit-box-direction: normal; -webkit-flex-direction: row; -ms-flex-direction: row; flex-direction: row;
     justify-content: space-between;
     align-items: center;
 }
@@ -109,13 +105,14 @@ button {
 /* Landing sections styles */
 
 .main-section {
+    display: flex;
+    justify-content: center;
     background-color: white;
     margin-bottom: 50px;
 }
 
 .main-section .content {
-    display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex;
-    -webkit-box-orient: vertical; -webkit-box-direction: column; -webkit-flex-direction: column; -ms-flex-direction: column; flex-direction: column;
+    margin: auto;
     padding-top: 40px;
     background-image: url("../img/back.png");
     background-position: top center;
@@ -126,7 +123,7 @@ button {
 .blocks-container {
     display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-orient: horizontal; -webkit-box-direction: normal; -webkit-flex-direction: row; -ms-flex-direction: row; flex-direction: row;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
 }
 
 .apply-block {
@@ -163,20 +160,11 @@ button {
 
 .form-block { 
     position: relative;
-    flex: 2;
-    display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-orient: horizontal; -webkit-box-direction: normal; -webkit-flex-direction: row; -ms-flex-direction: row; flex-direction: row;
-    -webkit-box-orient: vertical; -webkit-box-direction: column; -webkit-flex-direction: column; -ms-flex-direction: column; flex-direction: column;
-    align-items: flex-end;
 }
 
 .apply-form {
-    /* Problem here */
-    width: fit-content;
-    height: auto;
-    display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex;
-    -webkit-box-orient: vertical; -webkit-box-direction: column; -webkit-flex-direction: column; -ms-flex-direction: column; flex-direction: column;
-    align-items: center;
-    justify-content: start;
+    position: relative;
+    text-align: center;
     padding: 20px;
     border-radius: 5px;
     background: rgb(63,61,57);
@@ -221,6 +209,7 @@ button {
 }
 
 .info-block {
+    position: relative;
     margin-top: 20px;
     max-width: 500px;
     text-shadow: 
@@ -261,11 +250,8 @@ button {
 /* Landing footer styles */
 
 .footer .content {
-    justify-content: space-between;
-    align-items: center;
     margin-top: 60px;
     margin-bottom: 40px;
-    height: 100%;
 }
 
 .columns-container {
@@ -375,4 +361,5 @@ button {
 .twi {
     background-position: -36px -39px;
 }
+
 /* Landing footer styles end */

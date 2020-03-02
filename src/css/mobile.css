@@ -1,7 +1,6 @@
 @media screen and (max-width: 1140px) {
     .main-section {
         margin-bottom: 10px;
-        /* Problem here */
     }
 
     .content {
@@ -11,6 +10,7 @@
 
     .blocks-container {
         -webkit-box-orient: vertical; -webkit-box-direction: column; -webkit-flex-direction: column; -ms-flex-direction: column; flex-direction: column;
+        align-items: center;
     }
 
     .info-block-container {
@@ -32,10 +32,6 @@
     .block {
         max-width: 720px;
     }
-    
-    .footer  {
-        /* Problem here */
-    }
 
     .columns-container {
         justify-content: space-around;
@@ -55,7 +51,7 @@
   
 @media screen and (max-width: 630px) {
     .main-section {
-        margin-bottom: 10px; /* Problem here */
+        margin-bottom: 10px;
     }
 
     .phone-link {
@@ -78,6 +74,11 @@
         font-size: 22px;
     }
 
+    .blocks-container {
+        -webkit-box-orient: vertical; -webkit-box-direction: column; -webkit-flex-direction: column; -ms-flex-direction: column; flex-direction: column;
+        align-items: center;
+    }
+
     .apply-block h1 {
         font-size: 35px;
         line-height: 45px;
@@ -93,10 +94,6 @@
 
     .info-block h4 {
         font-size: 18px;
-    }
-
-    .footer  {
-        /* Problem here */
     }
 
     .columns-container {
