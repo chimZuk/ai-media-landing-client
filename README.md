@@ -1,1 +1,3 @@
-# ai-media-landing-client
+# Test Landing page
+
+Simple landing page example, pure HTML/CSS/JS.
