@@ -170,9 +170,9 @@ button {
 }
 
 .apply-form {
+    /* Problem here */
     width: fit-content;
     height: auto;
-    min-height: 363px;
     display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex;
     -webkit-box-orient: vertical; -webkit-box-direction: column; -webkit-flex-direction: column; -ms-flex-direction: column; flex-direction: column;
     align-items: center;

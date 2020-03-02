@@ -1,7 +1,7 @@
 @media screen and (max-width: 1140px) {
     .main-section {
         margin-bottom: 10px;
-        min-height: 1170px;
+        /* Problem here */
     }
 
     .content {
@@ -34,7 +34,7 @@
     }
     
     .footer  {
-        min-height: 928px;
+        /* Problem here */
     }
 
     .columns-container {
@@ -55,8 +55,7 @@
   
 @media screen and (max-width: 630px) {
     .main-section {
-        margin-bottom: 10px;
-        min-height: 1058px;
+        margin-bottom: 10px; /* Problem here */
     }
 
     .phone-link {
@@ -97,7 +96,7 @@
     }
 
     .footer  {
-        min-height: 1625px;
+        /* Problem here */
     }
 
     .columns-container {
